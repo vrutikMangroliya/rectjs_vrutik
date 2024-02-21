@@ -1,0 +1,73 @@
+.maindiv{
+    height: 400px;
+    width: 1400px;
+     /* border: solid black; */
+    display: flex;
+    align-items: center;
+  }
+  .maindiv .card-1{
+    background-color:green;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 1000px;
+    height:260px;
+    display:flex;
+    cursor:pointer;
+    align-items: center;
+  }
+  .card-1 .backimg{
+    display: block;
+    width:1400px;
+  }
+.img1{
+    width: 400px;
+    height: 400px;
+    margin-bottom:100px;
+    margin-right:100px;
+    /* border: solid black; */
+    position: absolute;
+}
+.img1 img{
+    margin-top:90px;
+    height: 350px;
+}
+.img1:hover{
+    transform:perspective(70px) rotatey(720deg);
+    transition:all 3s;
+  }
+.text{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    /* border: solid black; */
+    position:absolute;
+    margin-left:500px;
+    /* display: flex; */
+}
+.text h1{
+    color: white;
+    font-size: 62px;
+    font-family: sans-serif,Urbanist;
+}
+.text h3{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif,Urbanist;
+    margin-top:80px;
+}
+/* button {
+    color: black;
+    padding: 0.7em 1.7em;
+    font-family: Urbanist, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    border:   #ff9d9d;
+    transition: all 0.3s;
+    margin-top: 50px;
+  }
+  button:active {
+    color: tomato;
+    box-shadow: inset 4px 4px 12px #ff9d9d;
+  } */

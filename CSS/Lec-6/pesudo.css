@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a:first-child
+{
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+ input:last-of-type
+{
+    color: red;
+    background-color: yellow;
+}
+
+/* div h1:first-child{
+    color: red;
+    background-color: yellow;
+} */
+
+nav a:nth-child(4){
+    color: red;
+    background-color: yellow;
+}
+
+ span p:last-of-type{
+    color: red;
+    background-color: yellow;
+}
+section h1:last-child{
+    color: red;
+    background-color: yellow;
+}
+
+nav h1::first-line{
+    color: red;
+    background-color: yellow;
+}
+/* .heading h1{
+    color: red;
+    background-color: yellow;
+} */
+h1:nth-child(22){
+    color: red;
+    background-color: yellow;
+}
+h1:nth-child(6){
+    color: red;
+    background-color: yellow;
+}
+/* h1:nth-child(3){
+    color: red;
+    background-color: yellow;
+} */
+h1:nth-child(19){
+    color: red;
+    background-color: yellow;
+}
+h1:nth-child(14){
+    color: red;
+    background-color: yellow;
+}
+h1:nth-child(13){
+    color: red;
+    background-color: yellow;
+}
+div div div h1:nth-child(4)
+{
+    color: red;
+    background-color: yellow;
+}
+h1:nth-last-of-type(14){
+    color: red;
+    background-color: yellow;
+}
+:where(.heading){
+    color: red;
+    background-color: yellow;
+}
+div:nth-of-type(2) h1:nth-child(2){
+    color: red;
+    background-color: yellow;
+}
+.h1{
+    color: red;
+    background-color: yellow;
+}
+div:nth-last-child(2) h1:nth-child(1){
+    color: red;
+    background-color: yellow;
+}

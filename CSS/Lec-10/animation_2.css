@@ -1,0 +1,39 @@
+body{
+    margin: 100px;
+}
+
+  .maindiv{
+    height: 200px;
+    width: 500px;
+    background-color:rgb(157, 5, 157);
+    left: 0;
+    right: 0;
+    margin: auto;
+
+  }
+  .maindiv:hover
+  {
+    animation-name: scale;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count:1;
+  }
+  @keyframes scale {
+   0%
+   {
+    transform: scale(1);
+   }
+   50%
+   {
+    transform: scale(1.2);
+   }
+   100%
+   {
+    transform: scale(1);
+   }
+
+}
+  
+
+ 
+  

@@ -1,0 +1,86 @@
+
+.text{
+    color: white;
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.maindiv{
+    height: 1000px;
+    width: auto;
+    display: flex;
+     align-items: center;
+     justify-content:space-evenly;
+}
+.box-1{
+    height: 980px;
+    width:460px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-2{
+    height: 980px;
+    width:460px;
+
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-3{
+    height: 980px;
+    width:520px;
+
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-4{
+    height: 980px;
+    width:520px;
+
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-5{
+    height: 980px;
+    width:520px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-6{
+    height: 980px;
+    width:520px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-7{
+    height: 980px;
+    width:520px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.box-8{
+    height: 980px;
+    width:520px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 10px;
+}
+.maindiv p{
+    font-size: 20px;
+}
