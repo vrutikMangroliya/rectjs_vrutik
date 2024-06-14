@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div>
+        When controlling the flow of text, using the CSS property
+        <span class="inline">display: inline</span>
+        will cause the text inside the element to wrap normally.
+
+        While using the property <span class="inline-block">display: inline-block</span>
+        will wrap the element to prevent the text inside from extending beyond its parent.
+
+        Lastly, using the property <span class="block">display: block</span>
+        will put the element on its own line and fill its parent.
+    </div>
+
+    <div class="p-4">
+        <div class="flow-root ...">
+            <div class="my-4 ...">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium obcaecati
+                sed architecto reiciendis! Accusamus tempora, incidunt nemo quas ad excepturi asperiores doloribus, esse
+                magnam, eius reiciendis maxime nesciunt hic!</div>
+        </div>
+        <div class="flow-root ...">
+            <div class="my-4 ...">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, doloremque quis cum
+                ipsa veniam iusto a, eligendi natus doloribus dolores ullam, in sit quo fuga earum quae dignissimos
+                error nesciunt!</div>
+        </div>
+    </div>
+
+    <div class="flex items-center h-16 w-60 bg-slate-600 p-6">
+        <img class=" size-10 rounded-full" src="/image/dp.jpg">
+        <div>
+            <strong>Andrew Alfred<br></strong>
+            <span>Technical advisor</span>
+        </div>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque qui saepe ullam exercitationem nihil beatae
+        mollitia, molestias soluta in magni reiciendis. Sit molestiae modi, recusandae quibusdam dolore eius nostrum
+        rerum!
+        <span class="inline-flex items-baseline">
+            <img src="/image/dp.jpg" alt="" class="self-center w-5 h-5 rounded-full mx-1" />
+            <span>Kramer</span>
+        </span>
+        asperiores culpa, dicta voluptate ab aspernatur quod. Temporibus?
+    </p>
+
+    <div class="grid gap-4 grid-cols-3 grid-rows-3">
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">1</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">2</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">3</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">4</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">5</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">6</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">7</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">8</div>
+        <div class="h-10 w-48 bg-red-500 text-center text-xl">9</div>
+    </div>
+
+    <span class="inline-grid grid-cols-3 gap-4">
+        <span class="size-14 bg-orange-500 text-center text-lg">01</span>
+        <span class="size-14 bg-orange-500 text-center text-lg">02</span>
+        <span class="size-14 bg-orange-500 text-center text-lg">03</span>
+        <span class="size-14 bg-orange-500 text-center text-lg">04</span>
+        <span class="size-14 bg-orange-500 text-center text-lg">05</span>
+        <span class="size-14 bg-orange-500 text-center text-lg">06</span>
+    </span>
+    <span class="inline-grid grid-cols-3 gap-4">
+        <span class="size-14 bg-amber-400 text-center text-lg">01</span>
+        <span class="size-14 bg-amber-400 text-center text-lg">02</span>
+        <span class="size-14 bg-amber-400 text-center text-lg">03</span>
+        <span class="size-14 bg-amber-400 text-center text-lg">04</span>
+        <span class="size-14 bg-amber-400 text-center text-lg">05</span>
+        <span class="size-14 bg-amber-400 text-center text-lg">06</span>
+    </span>
+    </div>
+</body>
+
+</html>

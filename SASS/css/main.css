@@ -1,0 +1,100 @@
+body {
+  background-color: cornflowerblue;
+}/*# sourceMappingURL=main.css.map */
+  margin: 10px;
+}
+.navigation .logo {
+  margin-right: auto;
+  display: flex;
+}
+.navigation .logo h2 {
+  font-size: 30px;
+  color: orange;
+}
+.navigation .navitems ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navigation ul li a:hover {
+  color: orange;
+}
+.navigation .menu .button a {
+  padding: 35px;
+  padding-left: 60px;
+  font-size: 19px;
+  color: black;
+  background-color: #ff6504;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.navigation .menu h1 {
+  transform: rotate(-55deg);
+  top: 10px;
+  right: 130px;
+}
+
+.main img {
+  height: 700px;
+  width: 100%;
+}
+.main .text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  color: white;
+  bottom: 550px;
+}
+.main p {
+  color: white;
+  bottom: 530px;
+}
+.main .new {
+  bottom: 100px;
+  background-color: white;
+  height: 400px;
+  width: 1520px;
+}
+.main .new h1 {
+  color: black;
+  top: -100px;
+  left: 650px;
+  font-size: 150px;
+}
+.main .new img {
+  top: 20px;
+  left: 720px;
+  height: 130px;
+  width: 130px;
+}
+.main .new h2 {
+  top: -120px;
+  left: 845px;
+  font-size: 150px;
+}
+.main .text2 p {
+  top: 400px;
+  left: 680px;
+  color: #ff6504;
+  font-size: 25px;
+}
+.main .text2 h1 {
+  font-size: 25px;
+  top: 409px;
+  left: 765px;
+  color: black;
+}
+.main .button2 a {
+  top: 480px;
+  left: 750px;
+  padding: 10px;
+  background-color: #ff6504;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
